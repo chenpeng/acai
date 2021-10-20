@@ -14,6 +14,14 @@
 		FFA5D702271FF227009477EB /* AcaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D701271FF227009477EB /* AcaiTests.swift */; };
 		FFA5D70C271FF227009477EB /* AcaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D70B271FF227009477EB /* AcaiUITests.swift */; };
 		FFA5D70E271FF227009477EB /* AcaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D70D271FF227009477EB /* AcaiUITestsLaunchTests.swift */; };
+		FFA5D71E271FF2C6009477EB /* BillData.json in Resources */ = {isa = PBXBuildFile; fileRef = FFA5D71D271FF2C6009477EB /* BillData.json */; };
+		FFA5D720271FF307009477EB /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D71F271FF307009477EB /* Bill.swift */; };
+		FFA5D722271FF34C009477EB /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D721271FF34C009477EB /* ModelData.swift */; };
+		FFA5D724271FF393009477EB /* BillRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D723271FF393009477EB /* BillRowView.swift */; };
+		FFA5D726271FF6C7009477EB /* BillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D725271FF6C7009477EB /* BillListView.swift */; };
+		FFA5D728271FF86F009477EB /* BillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D727271FF86F009477EB /* BillDetailView.swift */; };
+		FFA5D72A271FFC8B009477EB /* BillAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D729271FFC8B009477EB /* BillAddView.swift */; };
+		FFA5D72C2720000B009477EB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D72B2720000B009477EB /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		FFA5D707271FF227009477EB /* AcaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA5D70B271FF227009477EB /* AcaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiUITests.swift; sourceTree = "<group>"; };
 		FFA5D70D271FF227009477EB /* AcaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFA5D71D271FF2C6009477EB /* BillData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BillData.json; sourceTree = "<group>"; };
+		FFA5D71F271FF307009477EB /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		FFA5D721271FF34C009477EB /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		FFA5D723271FF393009477EB /* BillRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillRowView.swift; sourceTree = "<group>"; };
+		FFA5D725271FF6C7009477EB /* BillListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListView.swift; sourceTree = "<group>"; };
+		FFA5D727271FF86F009477EB /* BillDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailView.swift; sourceTree = "<group>"; };
+		FFA5D729271FFC8B009477EB /* BillAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillAddView.swift; sourceTree = "<group>"; };
+		FFA5D72B2720000B009477EB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +110,9 @@
 		FFA5D6EF271FF225009477EB /* Acai */ = {
 			isa = PBXGroup;
 			children = (
+				FFA5D71C271FF2AC009477EB /* Resources */,
+				FFA5D71B271FF29F009477EB /* Model */,
+				FFA5D71A271FF296009477EB /* Views */,
 				FFA5D6F0271FF225009477EB /* AcaiApp.swift */,
 				FFA5D6F2271FF225009477EB /* ContentView.swift */,
 				FFA5D6F4271FF227009477EB /* Assets.xcassets */,
@@ -125,6 +144,35 @@
 				FFA5D70D271FF227009477EB /* AcaiUITestsLaunchTests.swift */,
 			);
 			path = AcaiUITests;
+			sourceTree = "<group>";
+		};
+		FFA5D71A271FF296009477EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5D723271FF393009477EB /* BillRowView.swift */,
+				FFA5D725271FF6C7009477EB /* BillListView.swift */,
+				FFA5D727271FF86F009477EB /* BillDetailView.swift */,
+				FFA5D729271FFC8B009477EB /* BillAddView.swift */,
+				FFA5D72B2720000B009477EB /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFA5D71B271FF29F009477EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5D71F271FF307009477EB /* Bill.swift */,
+				FFA5D721271FF34C009477EB /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFA5D71C271FF2AC009477EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5D71D271FF2C6009477EB /* BillData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +281,7 @@
 			files = (
 				FFA5D6F8271FF227009477EB /* Preview Assets.xcassets in Resources */,
 				FFA5D6F5271FF227009477EB /* Assets.xcassets in Resources */,
+				FFA5D71E271FF2C6009477EB /* BillData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA5D728271FF86F009477EB /* BillDetailView.swift in Sources */,
+				FFA5D724271FF393009477EB /* BillRowView.swift in Sources */,
+				FFA5D726271FF6C7009477EB /* BillListView.swift in Sources */,
+				FFA5D72C2720000B009477EB /* LoginView.swift in Sources */,
+				FFA5D72A271FFC8B009477EB /* BillAddView.swift in Sources */,
 				FFA5D6F3271FF225009477EB /* ContentView.swift in Sources */,
+				FFA5D722271FF34C009477EB /* ModelData.swift in Sources */,
+				FFA5D720271FF307009477EB /* Bill.swift in Sources */,
 				FFA5D6F1271FF225009477EB /* AcaiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
