@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFA5D6F1271FF225009477EB /* AcaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D6F0271FF225009477EB /* AcaiApp.swift */; };
+		FFA5D6F3271FF225009477EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D6F2271FF225009477EB /* ContentView.swift */; };
+		FFA5D6F5271FF227009477EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA5D6F4271FF227009477EB /* Assets.xcassets */; };
+		FFA5D6F8271FF227009477EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA5D6F7271FF227009477EB /* Preview Assets.xcassets */; };
+		FFA5D702271FF227009477EB /* AcaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D701271FF227009477EB /* AcaiTests.swift */; };
+		FFA5D70C271FF227009477EB /* AcaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D70B271FF227009477EB /* AcaiUITests.swift */; };
+		FFA5D70E271FF227009477EB /* AcaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5D70D271FF227009477EB /* AcaiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFA5D6FE271FF227009477EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA5D6E5271FF225009477EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA5D6EC271FF225009477EB;
+			remoteInfo = Acai;
+		};
+		FFA5D708271FF227009477EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA5D6E5271FF225009477EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA5D6EC271FF225009477EB;
+			remoteInfo = Acai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFA5D6ED271FF225009477EB /* Acai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA5D6F0271FF225009477EB /* AcaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiApp.swift; sourceTree = "<group>"; };
+		FFA5D6F2271FF225009477EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFA5D6F4271FF227009477EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA5D6F7271FF227009477EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFA5D6FD271FF227009477EB /* AcaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA5D701271FF227009477EB /* AcaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiTests.swift; sourceTree = "<group>"; };
+		FFA5D707271FF227009477EB /* AcaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA5D70B271FF227009477EB /* AcaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiUITests.swift; sourceTree = "<group>"; };
+		FFA5D70D271FF227009477EB /* AcaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA5D6EA271FF225009477EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA5D6FA271FF227009477EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA5D704271FF227009477EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFA5D6E4271FF225009477EB = {
+			isa = PBXGroup;
+			children = (
+				FFA5D6EF271FF225009477EB /* Acai */,
+				FFA5D700271FF227009477EB /* AcaiTests */,
+				FFA5D70A271FF227009477EB /* AcaiUITests */,
+				FFA5D6EE271FF225009477EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA5D6EE271FF225009477EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5D6ED271FF225009477EB /* Acai.app */,
+				FFA5D6FD271FF227009477EB /* AcaiTests.xctest */,
+				FFA5D707271FF227009477EB /* AcaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA5D6EF271FF225009477EB /* Acai */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5D6F0271FF225009477EB /* AcaiApp.swift */,
+				FFA5D6F2271FF225009477EB /* ContentView.swift */,
+				FFA5D6F4271FF227009477EB /* Assets.xcassets */,
+				FFA5D6F6271FF227009477EB /* Preview Content */,
+			);
+			path = Acai;
+			sourceTree = "<group>";
+		};
+		FFA5D6F6271FF227009477EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5D6F7271FF227009477EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFA5D700271FF227009477EB /* AcaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5D701271FF227009477EB /* AcaiTests.swift */,
+			);
+			path = AcaiTests;
+			sourceTree = "<group>";
+		};
+		FFA5D70A271FF227009477EB /* AcaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5D70B271FF227009477EB /* AcaiUITests.swift */,
+				FFA5D70D271FF227009477EB /* AcaiUITestsLaunchTests.swift */,
+			);
+			path = AcaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA5D6EC271FF225009477EB /* Acai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA5D711271FF227009477EB /* Build configuration list for PBXNativeTarget "Acai" */;
+			buildPhases = (
+				FFA5D6E9271FF225009477EB /* Sources */,
+				FFA5D6EA271FF225009477EB /* Frameworks */,
+				FFA5D6EB271FF225009477EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acai;
+			productName = Acai;
+			productReference = FFA5D6ED271FF225009477EB /* Acai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFA5D6FC271FF227009477EB /* AcaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA5D714271FF227009477EB /* Build configuration list for PBXNativeTarget "AcaiTests" */;
+			buildPhases = (
+				FFA5D6F9271FF227009477EB /* Sources */,
+				FFA5D6FA271FF227009477EB /* Frameworks */,
+				FFA5D6FB271FF227009477EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA5D6FF271FF227009477EB /* PBXTargetDependency */,
+			);
+			name = AcaiTests;
+			productName = AcaiTests;
+			productReference = FFA5D6FD271FF227009477EB /* AcaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFA5D706271FF227009477EB /* AcaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA5D717271FF227009477EB /* Build configuration list for PBXNativeTarget "AcaiUITests" */;
+			buildPhases = (
+				FFA5D703271FF227009477EB /* Sources */,
+				FFA5D704271FF227009477EB /* Frameworks */,
+				FFA5D705271FF227009477EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA5D709271FF227009477EB /* PBXTargetDependency */,
+			);
+			name = AcaiUITests;
+			productName = AcaiUITests;
+			productReference = FFA5D707271FF227009477EB /* AcaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA5D6E5271FF225009477EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FFA5D6EC271FF225009477EB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FFA5D6FC271FF227009477EB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FFA5D6EC271FF225009477EB;
+					};
+					FFA5D706271FF227009477EB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FFA5D6EC271FF225009477EB;
+					};
+				};
+			};
+			buildConfigurationList = FFA5D6E8271FF225009477EB /* Build configuration list for PBXProject "Acai" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA5D6E4271FF225009477EB;
+			productRefGroup = FFA5D6EE271FF225009477EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA5D6EC271FF225009477EB /* Acai */,
+				FFA5D6FC271FF227009477EB /* AcaiTests */,
+				FFA5D706271FF227009477EB /* AcaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA5D6EB271FF225009477EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA5D6F8271FF227009477EB /* Preview Assets.xcassets in Resources */,
+				FFA5D6F5271FF227009477EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA5D6FB271FF227009477EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA5D705271FF227009477EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA5D6E9271FF225009477EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA5D6F3271FF225009477EB /* ContentView.swift in Sources */,
+				FFA5D6F1271FF225009477EB /* AcaiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA5D6F9271FF227009477EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA5D702271FF227009477EB /* AcaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA5D703271FF227009477EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA5D70E271FF227009477EB /* AcaiUITestsLaunchTests.swift in Sources */,
+				FFA5D70C271FF227009477EB /* AcaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFA5D6FF271FF227009477EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA5D6EC271FF225009477EB /* Acai */;
+			targetProxy = FFA5D6FE271FF227009477EB /* PBXContainerItemProxy */;
+		};
+		FFA5D709271FF227009477EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA5D6EC271FF225009477EB /* Acai */;
+			targetProxy = FFA5D708271FF227009477EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFA5D70F271FF227009477EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFA5D710271FF227009477EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA5D712271FF227009477EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Acai/Preview Content\"";
+				DEVELOPMENT_TEAM = MAMKFB22X5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chenpeng.app.Acai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFA5D713271FF227009477EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Acai/Preview Content\"";
+				DEVELOPMENT_TEAM = MAMKFB22X5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chenpeng.app.Acai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFA5D715271FF227009477EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAMKFB22X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chenpeng.app.AcaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acai.app/Acai";
+			};
+			name = Debug;
+		};
+		FFA5D716271FF227009477EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAMKFB22X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chenpeng.app.AcaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acai.app/Acai";
+			};
+			name = Release;
+		};
+		FFA5D718271FF227009477EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAMKFB22X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chenpeng.app.AcaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Acai;
+			};
+			name = Debug;
+		};
+		FFA5D719271FF227009477EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAMKFB22X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chenpeng.app.AcaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Acai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA5D6E8271FF225009477EB /* Build configuration list for PBXProject "Acai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA5D70F271FF227009477EB /* Debug */,
+				FFA5D710271FF227009477EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA5D711271FF227009477EB /* Build configuration list for PBXNativeTarget "Acai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA5D712271FF227009477EB /* Debug */,
+				FFA5D713271FF227009477EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA5D714271FF227009477EB /* Build configuration list for PBXNativeTarget "AcaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA5D715271FF227009477EB /* Debug */,
+				FFA5D716271FF227009477EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA5D717271FF227009477EB /* Build configuration list for PBXNativeTarget "AcaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA5D718271FF227009477EB /* Debug */,
+				FFA5D719271FF227009477EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA5D6E5271FF225009477EB /* Project object */;
+}
